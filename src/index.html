@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tumkuru Citizenportal</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="assets/logo/Group 37 (1).png" rel="shortcut icon" type="image/x-icon" />
+  <link href="assets/websitecontent/css.css" rel="stylesheet"/>
+
+  <link href="assets/websitecontent/fontawsome.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="assets/websitecontent/datatable.css" rel="stylesheet"/>
+  <link href='https://fonts.googleapis.com/css?family=Hubballi' rel='stylesheet'>
+  <link href="assets/websitecontent/content.css" rel="stylesheet"/>
+
+  <link href="assets/websitecontent/fonts.css" rel="stylesheet">
+  <script src="assets/websitecontent/modernizer.js"></script>
+<style>
+  body.other-pages:before {
+    content: '';
+    background: #538bb1;
+    background-image: linear-gradient(#4c82af 0,#022542 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 350px;
+    border-bottom: 3px solid #ff0130;
+}
+.main-section.login-section .login-wrapper {
+    padding: 75px 0;
+    min-width: 360px;
+    text-align: left;
+    display: inline-block;
+}
+body {
+  font-family: 'Noto Serif Kannada', sans-serif!important;
+}
+
+/* Font family for Kannada */
+body.kn {
+  font-family: 'Noto Serif Kannada', sans-serif!important; /* Replace 'Your_Kannada_Font' with the actual Kannada font family */
+}
+th{
+  background-color: #58205f!important;
+    color: white;
+}
+</style>
+</head>
+<body class="other-pages hasJS" [ngClass]="{'kn': i18nConfigService.getCurrentLanguage() === 'kn'}">
+  <app-root></app-root>
+  <script src="assets/websitecontent/jquery.js"></script>
+
+    <noscript></noscript>
+  
+    <link href="assets/websitecontent/owlcarousel.css" rel="stylesheet"/>
+
+    <script src="assets/websitecontent/owl.js"></script>
+    
+    <noscript></noscript>
+    <script>
+        $('#login-slider').owlCarousel({
+            items:1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 8000,
+            autoplayHoverPause: true,
+            margin: 0,
+            nav: false,
+            dots: true,
+            lazyLoad: true,
+        })
+    </script>
+     <!-- ./ Footer -->
+    
+
+     <noscript></noscript>
+     <script src="assets/websitecontent/jqueryui.js"></script>
+ 
+     <noscript></noscript>
+     <script src="assets/websitecontent/jqueryval.js"></script>
+ 
+     <noscript></noscript>
+     <script src="assets/websitecontent/datatables.js"></script>
+ 
+     <noscript></noscript>
+     <script src="assets/websitecontent/bootstrap.js"></script>
+ 
+     <noscript></noscript>
+     <script src="assets/websitecontent/hideshowheader.js"></script>
+ 
+     <noscript></noscript>
+     
+     <script>
+         $(function () {
+             $('[data-toggle="tooltip"]').tooltip()
+         });
+     </script>
+   
+     <noscript></noscript>
+     
+ 
+</body>
+</html>

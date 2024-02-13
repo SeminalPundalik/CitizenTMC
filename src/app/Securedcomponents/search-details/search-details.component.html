@@ -1,0 +1,197 @@
+<div class="page-wrapper innerpages mar-t30" id="dvMainBody">
+
+    <div class="container">
+        <section class="main-section witn-min-height">
+            <section class="inner-section">
+                <div class="page-heading">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-lg-9 col-sm-9">
+                            <div class="page-heading">
+                                <h1 class="alternate">{{'PROPERTYTAX' | translate}}</h1>
+                            </div>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-lg-3 col-sm-3">
+                            <div class="other-options">
+                                <a routerLink="/Dashboard"><span
+                                        class="fa fa-angle-left pad-r5"></span>{{'backtoonlineservices' | translate}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class=" form form-birth-certificate">
+                        <div class="row clear-fix">
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+                                <div class="visible-xs visible-sm mar-b20 related-links-mobile">
+                                    <div class="clearfix">
+                                        <a class="btn btn-link collapsed pull-right links" role="button"
+                                            data-toggle="collapse" href="#RelatedLinks" aria-expanded="false"
+                                            aria-controls="RelatedLinks">
+                                            {{'RelatedLinks' | translate}}<span class="fa pad-l5"></span>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="RelatedLinks">
+                                        <div class="well well-sm with-padding">
+                                            <ul class="list-unstyled type1">
+
+                                                <style>
+                                                    .dropdown-menu>li>a:hover,
+                                                    .dropdown-menu>li>a:focus {
+                                                        text-decoration: underline !important;
+                                                        color: #262626;
+                                                        background-color: #f5f5f5;
+                                                    }
+                                                </style>
+                                                <li><a href="">My Registrations</a></li>
+                                                <li><a href="">My Transactions</a></li>
+                                                <li><a href="">View Bill</a></li>
+
+                                                <li class="seprator hidden-xs hidden-sm"></li>
+                                                <li><a href="">Check &amp; Pay Property Tax</a></li>
+                                                <li><a href="">Check Transaction Status &amp; Reprint Receipt</a></li>
+                                                <li>
+                                                    <a href="">Name Transfer Application</a>
+                                                </li>
+                                                <li><a href="">Reassessment Application</a></li>
+
+                                                <li>
+                                                    <a href="">Self / New Assessment Application</a>
+                                                </li>
+
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="well well-sm">
+                                    <div class="filter-contents clearfix">
+                                        <div class="row clear-fix">
+                                            <div class="col-sm-12">
+                                                <div class="advanced-search-wrapper">
+                                                    <div id="advanced-search">
+                                                        <div class="advanced-search-filter">
+                                                            <div class="row clear-fix">
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group">
+                                                                       
+                                                                        <div class="row">
+
+                                                                            <div class="form-group col-lg-6">
+                                                                                <label > {{'PID' | translate}}</label>
+                                                                                <input autocomplete="off" 
+                                                                                    class="form-control" 
+                                                                                    name="PID" title="PID"
+                                                                                    type="text" value="">
+                                                                            </div>
+                                                                            <div class="form-group col-lg-6">
+                                                                                <label for="drpFinYear">{{'billyear' | translate}}</label>
+
+                                                                                <select class="form-control"
+                                                                                   
+                                                                                    data-val-number="The field FinYear must be a number."
+                                                                                    data-val-required="The FinYear field is required."
+                                                                                    id="drpFinYear" name="FinYear">
+                                                                                    <option value="2013">2013</option>
+                                                                                    <option value="2014">2014</option>
+                                                                                    <option value="2015">2015</option>
+                                                                                    <option value="2016">2016</option>
+                                                                                    <option value="2017">2017</option>
+                                                                                    <option value="2018">2018</option>
+                                                                                    <option value="2019">2019</option>
+                                                                                    <option value="2020">2020</option>
+                                                                                    <option value="2021">2021</option>
+                                                                                    <option value="2022">2022</option>
+                                                                                    <option value="2023">2023</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-help normal-text mar-b10">
+                                                                            Example: <span>PID No. -
+                                                                                XXXXXXX</span></div>
+                                                                    </div>
+
+                                                                    <div class="seprator">
+                                                                        <div class=""></div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="action-contents">
+                                        <div class="row clearfix">
+                                            <div class="col-lg-12">
+                                                <div class="text-center">
+                                                    <ul class="list-unstyled action-btns">
+                                                        <li>
+                                                            <button class="button-control inverse" id="btnClear" type="reset">
+                                                                <span class="fa fa-refresh pad-r5"></span>Clear</button>
+                                                        </li>
+                                                        <li>
+                                                            <button class="button-control" id="btnSearch" type="submit">
+                                                                <span class="fa fa-search pad-r5"></span>{{'search' | translate}}</button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hidden-xs hidden-sm col-md-4 col-lg-3">
+                                <div class="related-links">
+                                    <ul class="list-unstyled type1 mar-b30">
+
+                                        <style>
+                                            .dropdown-menu>li>a:hover,
+                                            .dropdown-menu>li>a:focus {
+                                                text-decoration: underline !important;
+                                                color: #262626;
+                                                background-color: #f5f5f5;
+                                            }
+                                        </style>
+                                        <li><a href="">My Registrations</a></li>
+                                        <li><a href="">My Transactions</a></li>
+                                        <li><a href="">View Bill</a></li>
+
+                                        <li class="seprator hidden-xs hidden-sm"></li>
+                                        <li><a href="">Check &amp; Pay Property Tax</a></li>
+                                        <li><a href="">Check Transaction Status &amp; Reprint Receipt</a></li>
+                                        <li>
+                                            <a href="">Name Transfer Application</a>
+                                        </li>
+                                        <li><a href="">Reassessment Application</a></li>
+
+                                        <li>
+                                            <a href="">Self / New Assessment Application</a>
+                                        </li>
+
+
+
+
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+               
+
+            </section>
+        </section>
+    </div>
+
+
+</div>
